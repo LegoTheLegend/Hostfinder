@@ -1,48 +1,66 @@
 body {
     padding-top: 70px;
+    background-color: #f8f8f8;
 }
-
-.slide-image {
-    width: 100%;
-}
-
-.carousel-holder {
-    margin-bottom: 30px;
-}
-
-.carousel-control,
-.item {
-    border-radius: 4px;
-}
-
-.caption {
-    height: 130px;
-    overflow: hidden;
-}
-
-.caption h4 {
-    white-space: nowrap;
-}
-
-.thumbnail img {
-    width: 100%;
-}
-
-.ratings {
-    padding-right: 10px;
-    padding-left: 10px;
-    color: #d17581;
-}
-
-.thumbnail {
-    padding: 0;
-}
-
-.thumbnail .caption-full {
-    padding: 9px;
-    color: #333;
-}
-
 footer {
     margin: 50px 0;
+}
+.brief {
+    margin-left: 140px;
+}
+.user-brief {
+    display: inline-block;
+    white-space: nowrap;
+    padding-bottom: 20px;
+}
+.user-avatar {
+    background: #FBFCFD;
+    border: 1px solid #E7EBED;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    height: 120px;
+    margin-right: 20px;
+    padding: 9px;
+    width: 120px;
+}
+.user-description {
+    display: inline-block;
+    vertical-align: top;
+}
+.amount {
+    color: darkgoldenrod;
+}
+.title {
+    font-size: 1.125em;
+}
+.user-item {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+}
+.ratings {
+    color: darkgoldenrod;
+}
+.buttons {
+    display: block;
+    width: 120px;
+}
+.categories-sidebar {
+    background-color: #faffd9;
+    position: relative;
+}
+.sidebar {
+    position: relative;
+}
+.main-content {
+    background-color: #fdfbff;
+    position: relative;
+}
+.footer {
+    background-color: #101010;
+    color: #ffffff;
+    width: 100%;
+}
+.footer-description {
+    margin-left: 20%;
 }
